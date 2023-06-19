@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "956682939517",
+    "project_id": "multicover-insurance-57e05",
+    "storage_bucket": "multicover-insurance-57e05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956682939517:android:626985e051d4828b3e9514",
+        "android_client_info": {
+          "package_name": "com.example.multicoverinsurance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956682939517-dg67sbkl52da9vpvkat5ur88qftr649b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.multicoverinsurance",
+            "certificate_hash": "059cbe5ad38ea7b112d4f3a19a52dc796be9f478"
+          }
+        },
+        {
+          "client_id": "956682939517-grt2jetvqennfc9f2kt2bl5rp3q5hsb1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2OuffoVlgFKKl7zE7caAOkCsvay9Yq7c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956682939517-grt2jetvqennfc9f2kt2bl5rp3q5hsb1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

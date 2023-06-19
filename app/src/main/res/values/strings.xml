@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Multicover Insurance</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="error">Passwords Doesnt Match</string>
+    <string name="signout">Sign Out?</string>
+    <string name="accept">Yes</string>
+    <string name="decline">No</string>
+    <string name="name">Name</string>
+</resources>
