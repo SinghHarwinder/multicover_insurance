@@ -7,6 +7,7 @@ import android.text.TextUtils
 import android.util.Log
 import android.util.Patterns
 import android.widget.Toast
+import com.example.multicoverinsurance.AdminHomescreen
 import com.example.multicoverinsurance.MainActivity
 import com.example.multicoverinsurance.R
 import com.example.multicoverinsurance.databinding.ActivityLoginBinding
@@ -43,10 +44,18 @@ class Login : AppCompatActivity() {
                 .addOnCompleteListener(this) { task ->
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
+                        if(email.substringAfterLast("@") == "insurance.com")
+                        {
+                            val intent = Intent(this, AdminHomescreen::class.java)
+                            startActivity(intent)
+                            finish()
+                        }
+                        else{
                         val user = mAuth.currentUser
                         val intent = Intent(this, MainActivity::class.java)
                         startActivity(intent)
                         finish()
+                        }
                     } else {
                         // If sign in fails, display a message to the user.
                         Log.d("authentication",task.exception.toString())
@@ -63,6 +72,4 @@ class Login : AppCompatActivity() {
     fun isValidEmail(target: CharSequence?): Boolean {
         return !TextUtils.isEmpty(target) && Patterns.EMAIL_ADDRESS.matcher(target).matches()
     }
-
-
 }

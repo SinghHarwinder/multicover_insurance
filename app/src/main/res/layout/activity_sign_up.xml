@@ -86,7 +86,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/gordita"
-            android:inputType="textPassword"
             android:textSize="12sp" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -188,7 +187,7 @@
             android:paddingEnd="25sp"
             android:paddingBottom="5sp"
             android:text="Sign Up"
-            android:textColor="@color/white"
+            android:textColor="@color/color_buttons"
             android:textSize="24sp" />
 
     </androidx.cardview.widget.CardView>

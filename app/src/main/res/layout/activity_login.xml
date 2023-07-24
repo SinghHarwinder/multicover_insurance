@@ -95,7 +95,7 @@
             android:paddingEnd="25sp"
             android:paddingBottom="5sp"
             android:text="Login"
-            android:textColor="@color/white"
+            android:textColor="@color/color_buttons"
             android:textSize="24sp" />
 
     </androidx.cardview.widget.CardView>
@@ -120,7 +120,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/gordita"
-        android:text="not a member? "
+        android:text="not a member?"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -153,7 +153,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/gordita_bold"
-        android:text="Hello there!"
+        android:text="Hello There!"
         android:textColor="@color/colorAccent"
         android:textSize="42sp"
         app:layout_constraintBottom_toBottomOf="parent"

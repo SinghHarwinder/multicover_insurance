@@ -22,13 +22,13 @@ class EmailLinkLogin : AppCompatActivity() {
         binding = ActivityEmailLinkLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
         auth = FirebaseAuth.getInstance()
-            binding.sendLink.setOnClickListener {
+        binding.sendLink.setOnClickListener {
             val email1 = binding.email.text.toString().trim()
 
             val actionCodeSettings = ActionCodeSettings.newBuilder()
                 // URL you want to redirect back to. The domain (www.example.com) for this
                 // URL must be whitelisted in the Firebase Console.
-                .setUrl("com.example.multicoverinsurance")
+                .setUrl("multicover-insurance-57e05.firebaseapp.com")
                 // This must be true
                 .setHandleCodeInApp(true)
                 .setAndroidPackageName(
